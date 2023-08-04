@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Mariflora</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <link rel="stylesheet" type="text/css" href="css/styles-lib.css"/>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+
+</head>
+<body class="body--order">
+<div class="wrapper">
+    <header>
+        <div class="header__top"></div>
+        <div class="header__order">
+            <div class="container">
+                <div class="header__order--left">
+                    <a href="basket.html" class="header__order--link">
+                        <span>Вернуться в корзину</span>
+                        </button>
+                        <div class="header__order--logo">
+                            <a href="main_page.html">
+                                <picture>
+                                    <source srcset="img/logo_order_mini.svg" media="(max-width: 767px)">
+                                    <source srcset="img/logo_order.svg">
+                                    <img src="img/logo_order.svg" alt="Mariflora">
+                                </picture>
+                            </a>
+                            <p>Сделано JMP Flowers</p>
+                        </div>
+                </div>
+                <div class="header__order--right">
+                    <div class="header__order--contacts">
+                        <div class="header__order--contact">
+                            <a href="mailto:info@jmpflowers.ru">info@jmpflowers.ru</a>
+                            <p class="header__order--action"><a href="mailto:info@jmpflowers.ru">Написать нам</a></p>
+                        </div>
+                        <div class="header__order--contact">
+                            <a href="tel:+74994260845">+7 (499) 426-08-45</a>
+                            <p class="header__order--action"><button class="j-request-a-call">Заказать звонок</button></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section>
+                <div class="content__main">
+                    <div class="main__container">
+
+                        <div class="breadcrumb no-md" itemprop="http://schema.org/breadcrumb" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+                            <span itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                                <a itemprop="name" title="Главная" id="bx_breadcrumb_0" href="main_page.html">Главная</a>
+                            </span>
+                            <meta itemprop="position" content="1">
+                            <img src="img/breadcrumb_separate.svg" class="separate" alt=">">
+                            <span itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                                <a itemprop="name" title="Оформление заказа" id="bx_breadcrumb_1" href="javascript:void(0);">Оформление заказа</a>
+                            </span>
+                            <meta itemprop="position" content="2">
+                        </div>
+
+                        <div class="page__back md no-xs">
+                            <a href="main_page.html">
+                                <span>Главная</span>
+                            </a>
+                        </div>
+
+                        <div class="basket__container">
+
+                            <div class="order--header">
+                                <h1>Оформление заказа</h1>
+                                <span>[ ]</span>
+                            </div>
+
+                            <div class="basket__wrap">
+                                <div class="basket__list">
+                                    <div class="order__block" data-order="customer">
+                                        <p class="order__block--title">Заказчик</p>
+                                        <div class="order__block--body">
+                                            <div class="parameter__field">
+                                                <span class="parameter__field--title">Контрагент:</span>
+                                                <label data-label="counterparty">
+                                                    <input type="text" name="COUNTERPARTY" class="picker__button" readonly="" placeholder="Выберите контрагента" required="">
+                                                </label>
+                                                <div class="parameter__field--list">
+                                                    <div class="parameter__field--wrap">
+                                                        <div class="parameter__field--group">
+                                                            <div class="parameter__field--inner">
+                                                                <div class="parameter--list">
+                                                                    <label>
+                                                                        <input type="radio" name="COUNTERPARTY" value="ООО “Цветочный магазин”">
+                                                                        <span>ООО “Цветочный магазин”</span>
+                                                                    </label>
+                                                                    <label>
+                                                                        <input type="radio" name="COUNTERPARTY" value="ООО “Цветочный рынок”">
+                                                                        <span>ООО “Цветочный рынок”</span>
+                                                                    </label>
+                                                                    <label>
+                                                                        <input type="radio" name="COUNTERPARTY" value="ООО “Цветочный базар”">
+                                                                        <span>ООО “Цветочный базар”</span>
+                                                                    </label>
+                                                                    <label>
+                                                                        <input type="radio" name="COUNTERPARTY" value="ООО “Цветочный центр”">
+                                                                        <span>ООО “Цветочный центр”</span>
+                                                                    </label>
+                                                                    <label>
+                                                                        <input type="radio" name="COUNTERPARTY" value="ООО “Цветочный мир”">
+                                                                        <span>ООО “Цветочный мир”</span>
+                                                                    </label>
+                                                                    <label>
+                                                                        <input type="radio" name="COUNTERPARTY" value="ООО “Цветочная лавка”">
+                                                                        <span>ООО “Цветочная лавка”</span>
+                                                                    </label>
+                                                                    <label>
+                                                                        <input type="radio" name="COUNTERPARTY" value="ООО “Цветочный бутик”">
+                                                                        <span>ООО “Цветочный бутик”</span>
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="parameter__field">
+                                                <span class="parameter__field--title">Договор:</span>
+                                                <label data-label="contract">
+                                                    <input type="text" name="CONTRACT" class="picker__button" readonly="" placeholder="Выберите договор" required="">
+                                                </label>
+                                                <div class="parameter__field--list">
+                                                    <div class="parameter__field--wrap">
+                                                        <div class="parameter__field--group">
+                                                            <div class="parameter__field--inner">
+                                                                <div class="parameter--list">
+                                                                    <label>
+                                                                        <input type="radio" name="CONTRACT" value="Договор 345z-100 от 25.08.2021">
+                                                                        <span>Договор 345z-100 от 25.08.2021</span>
+                                                                    </label>
+                                                                    <label>
+                                                                        <input type="radio" name="CONTRACT" value="Договор 34466345z-100 от 10.08.2020">
+                                                                        <span>Договор 34466345z-100 от 10.08.2020</span>
+                                                                    </label>
+                                                                    <label>
+                                                                        <input type="radio" name="CONTRACT" value="Договор 345z-100 от 15.08.2021">
+                                                                        <span>Договор 345z-100 от 15.08.2021</span>
+                                                                    </label>
+                                                                    <label>
+                                                                        <input type="radio" name="CONTRACT" value="Договор 345z-100 от 15.01.2021">
+                                                                        <span>Договор 345z-100 от 15.01.2021</span>
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="order__block" data-order="delivery">
+                                        <p class="order__block--title">Способ доставки</p>
+                                        <div class="order__block--body">
+                                            <div class="delivery__wrap">
+                                                <label class="delivery__block active" data-tarif="бесплатно">
+                                                    <input type="radio" checked="true" name="DELIVERY" value="Самовывоз">
+                                                    <span class="delivery__block--title">Самовывоз</span>
+                                                    <span class="delivery__block--subtitle">Бесплатно, с нашего склада г. Москва, ул. Красная Сосна, д2 к1 с1</span>
+                                                </label>
+                                                <label class="delivery__block" data-tarif="1 350 ₽">
+                                                    <input type="radio" name="DELIVERY" value="Авто">
+                                                    <span class="delivery__block--title">Авто</span>
+                                                    <span class="delivery__block--subtitle">Стоимость зависит от области доставки и количества троллей</span>
+                                                </label>
+                                                <label class="delivery__block" data-tarif="2 350 ₽">
+                                                    <input type="radio" name="DELIVERY" value="Авиа">
+                                                    <span class="delivery__block--title">Авиа</span>
+                                                    <span class="delivery__block--subtitle">Стоимость зависит от города доставки и количества троллей</span>
+                                                </label>
+                                            </div>
+                                            <div class="delivery__info">
+                                                <label data-label="address">
+                                                    <span>Адрес доставки:</span>
+                                                    <textarea name="ADDRESS" placeholder="Введите адрес..." required=""></textarea>
+                                                </label>
+                                                <div class="delivery__points">
+                                                    <div class="delivery__point" data-point="tarif">
+                                                        <span class="title">Стоимость доставки:</span>
+                                                        <span class="value"></span>
+                                                    </div>
+                                                    <div class="delivery__point" data-point="date">
+                                                        <span class="title">Ближайшая доставка:</span>
+                                                        <span class="value">22 февраля 2022</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="order__block" data-order="payment">
+                                        <p class="order__block--title">Способ оплаты</p>
+                                        <div class="order__block--body">
+                                            <div class="delivery__wrap">
+                                                <label class="delivery__block active">
+                                                    <input type="radio" checked="true" name="PAYMENT" value="Счет">
+                                                    <span class="delivery__block--title">Счет</span>
+                                                    <span class="delivery__block--subtitle">Счет будет выставлен после оформления заказа</span>
+                                                </label>
+                                                <label class="delivery__block">
+                                                    <input type="radio" name="PAYMENT" value="Карта">
+                                                    <span class="delivery__block--title">Карта</span>
+                                                    <span class="delivery__block--subtitle">Онлайн оплата на сайте</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="order__block" data-order="contacts">
+                                        <p class="order__block--title">Контактные данные</p>
+                                        <div class="order__block--body">
+                                            <label data-label="name">
+                                                <span>Пользователь:</span>
+                                                <input type="text" placeholder="Введите ФИО..." name="NAME" required="">
+                                            </label>
+                                            <label data-label="email">
+                                                <span>E-mail:</span>
+                                                <input type="email" placeholder="info@info.ru" name="EMAIL" required="">
+                                            </label>
+                                            <label data-label="phone">
+                                                <span>Телефон:</span>
+                                                <input type="tel" placeholder="+7 (999) 999 99 99" name="PHONE" required="">
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="order__block" data-order="comment">
+                                        <p class="order__block--title">Комментарий к заказу</p>
+                                        <div class="order__block--body">
+                                            <textarea name="COMMENT" placeholder="Введите текст комментария..."></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="basket__total">
+                                        <div class="basket__total--title">
+                                            <span>Ваш заказ</span>
+                                            <span class="item--total">[  ]</span>
+                                        </div>
+                                        <div class="basket__total--list">
+                                            <div class="basket__total--row total">
+                                                <span class="title">Товары</span>
+                                                <span class="value"><b></b></span>
+                                            </div>
+                                            <div class="basket__total--row sale">
+                                                <span class="title">Скидка</span>
+                                                <span class="value"><b></b></span>
+                                            </div>
+                                            <div class="basket__total--row delivery">
+                                                <span class="title">Доставка</span>
+                                                <span class="value"><b></b></span>
+                                            </div>
+                                            <div class="basket__total--row highlighted">
+                                                <span class="title">Общее количество троллей заказа:</span>
+                                                <span class="value"><b>15</b></span>
+                                            </div>
+                                            <div class="basket__total--row datepicker--wrap">
+                                                <span class="title">Дата доставки:</span>
+                                                <span class="value">
+															<input class="datepicker-here" type="text" placeholder="__.__.____" readonly>
+														</span>
+                                            </div>
+                                        </div>
+                                        <div class="basket__total--button">
+                                            <div class="basket__total--row">
+                                                <span class="title"><b>Общая стоимость</b></span>
+                                                <span class="value"><b></b></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="j-set-an-order">Оформить заказ</button>
+                                    <div class="order__block" data-order="item-list">
+                                        <p class="order__block--title">Состав заказа</p>
+                                        <p class="order__block--subtitle">[  ]</p>
+                                        <div class="order__block--body">
+                                            <div class="catalog__list" data-view="list">
+                                                <div class="catalog__list--header no-xs">
+                                                    <div class="cell" data-cell="item">
+                                                        <span>Товар</span>
+                                                    </div>
+                                                    <div class="cell no-md" data-cell="pot">
+                                                        <span>Диаметр горшка</span>
+                                                    </div>
+                                                    <div class="cell no-md" data-cell="height">
+                                                        <span>Высота</span>
+                                                    </div>
+                                                    <div class="cell no-xs" data-cell="amount">
+                                                        <span>На тролле/<br> в авиаупаковке</span>
+                                                    </div>
+                                                    <div class="cell no-xs" data-cell="price">
+                                                        <span>Цена за шт</span>
+                                                    </div>
+                                                    <div class="cell no-xs" data-cell="number">
+                                                        <span>Кол-во</span>
+                                                    </div>
+                                                    <div class="cell no-xs" data-cell="availability">
+                                                        <span>Наличие</span>
+                                                    </div>
+                                                    <div class="cell no-xs" data-cell="final">
+                                                        <span>Итого</span>
+                                                    </div>
+                                                </div>
+                                                <div class="catalog__item">
+                                                    <a href="catalog_detail.html" target="_blank">
+                                                        <div class="cell" data-cell="item">
+                                                            <div class="catalog__item--img">
+                                                                <picture>
+                                                                    <source type="image/webp" srcset="img/flower3_2x-mini.webp">
+                                                                    <img src="img/flower3_2x-mini.jpg" alt="Wodospad II-pęd Biały Extra">
+                                                                </picture>
+                                                                <div class="catalog__item--label">
+                                                                    <div class="label" data-label="sale">-50%</div>
+                                                                    <div class="label" data-label="new">New</div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="catalog__item--info">
+                                                                <p class="subtitle">
+                                                                    <span>Орхидея Фаленопсис</span>
+                                                                    <span class="separate">|</span>
+                                                                    <span>Е213366</span>
+                                                                </p>
+                                                                <p class="title">Extra Anthura Newcastle</p>
+                                                                <div class="catalog__item--options">
+                                                                    <div class="catalog__item--option">
+                                                                        <span class="title">Диаметр горшка:</span>
+                                                                        <span class="value">9,5 см</span>
+                                                                    </div>
+                                                                    <div class="catalog__item--option">
+                                                                        <span class="title">Высота:</span>
+                                                                        <span class="value">70 см</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="catalog__item--cart xs">
+                                                                    <div class="catalog__item--number">
+                                                                        <div class="availability available">
+                                                                            <span>в наличии</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="catalog__item--price discount xs">
+                                                                    <span class="amount--total">150 <span>шт</span></span>
+                                                                    <span class="price--total">568 270 <span>₽</span></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cell no-md" data-cell="pot">
+                                                            <span class="value">9 см</span>
+                                                        </div>
+                                                        <div class="cell no-md" data-cell="height">
+                                                            <span class="value">50 см</span>
+                                                        </div>
+                                                        <div class="cell no-xs" data-cell="amount">
+                                                            <span class="value">100 шт /<br class="md"> 3 600 шт</span>
+                                                        </div>
+                                                        <div class="cell discount no-xs" data-cell="price">
+                                                            <div class="catalog__item--price">
+                                                                <span class="price--actual">1 270 <span>₽</span></span>
+                                                                <span class="price--old">1 890 <span>₽</span></span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cell no-xs" data-cell="number">
+                                                            <span class="value">150 шт</span>
+                                                        </div>
+                                                        <div class="cell no-xs" data-cell="availability">
+                                                            <div class="availability available">
+                                                                <span>в наличии</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cell discount no-xs" data-cell="final">
+                                                            <span class="total--actual">568 270 <span>₽</span></span>
+                                                            <span class="total--old">685 890 <span>₽</span></span>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="catalog__item">
+                                                    <a href="catalog_detail.html" target="_blank">
+                                                        <div class="cell" data-cell="item">
+                                                            <div class="catalog__item--img">
+                                                                <picture>
+                                                                    <source type="image/webp" srcset="img/flower1_2x-mini.webp">
+                                                                    <img src="img/flower1_2x-mini.jpg" alt="Wodospad II-pęd Biały Extra">
+                                                                </picture>
+                                                                <div class="catalog__item--label">
+                                                                </div>
+                                                            </div>
+                                                            <div class="catalog__item--info">
+                                                                <p class="subtitle">
+                                                                    <span>Орхидея Фаленопсис</span>
+                                                                    <span class="separate">|</span>
+                                                                    <span>Е213366</span>
+                                                                </p>
+                                                                <p class="title">Wodospad II-pęd Biały Extra Anthura Newcastle</p>
+                                                                <div class="catalog__item--options">
+                                                                    <div class="catalog__item--option">
+                                                                        <span class="title">Диаметр горшка:</span>
+                                                                        <span class="value">11 см</span>
+                                                                    </div>
+                                                                    <div class="catalog__item--option">
+                                                                        <span class="title">Высота:</span>
+                                                                        <span class="value">65 см</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="catalog__item--cart xs">
+                                                                    <div class="catalog__item--number">
+                                                                        <div class="availability supply">
+                                                                            Поставка: <span>11.10.2021</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="catalog__item--price discount xs">
+                                                                    <span class="amount--total">30 <span>шт</span></span>
+                                                                    <span class="price--total">69 340 <span>₽</span></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cell no-md" data-cell="pot">
+                                                            <span class="value">11 см</span>
+                                                        </div>
+                                                        <div class="cell no-md" data-cell="height">
+                                                            <span class="value">65 см</span>
+                                                        </div>
+                                                        <div class="cell no-xs" data-cell="amount">
+                                                            <span class="value">140 шт /<br class="md"> 400 шт</span>
+                                                        </div>
+                                                        <div class="cell no-xs" data-cell="price">
+                                                            <div class="catalog__item--price">
+                                                                <span class="price--actual">1 340 <span>₽</span></span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cell no-xs" data-cell="number">
+                                                            <span class="value">30 шт</span>
+                                                        </div>
+                                                        <div class="cell no-xs" data-cell="availability">
+                                                            <div class="availability supply">
+                                                                Поставка: <span>11.10.2021</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cell no-xs" data-cell="final">
+                                                            <span class="total--actual">69 340 <span>₽</span></span>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="catalog__item">
+                                                    <a href="catalog_detail.html" target="_blank">
+                                                        <div class="cell" data-cell="item">
+                                                            <div class="catalog__item--img">
+                                                                <picture>
+                                                                    <source type="image/webp" srcset="img/flower1_2x-mini.webp">
+                                                                    <img src="img/flower1_2x-mini.jpg" alt="Wodospad II-pęd Biały Extra">
+                                                                </picture>
+                                                                <div class="catalog__item--label">
+                                                                    <div class="label" data-label="sale">-50%</div>
+                                                                    <div class="label" data-label="new">New</div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="catalog__item--info">
+                                                                <p class="subtitle">
+                                                                    <span>Орхидея Фаленопсис</span>
+                                                                    <span class="separate">|</span>
+                                                                    <span>Е213366</span>
+                                                                </p>
+                                                                <p class="title">Extra Anthura Newcastle</p>
+                                                                <div class="catalog__item--options">
+                                                                    <div class="catalog__item--option">
+                                                                        <span class="title">Диаметр горшка:</span>
+                                                                        <span class="value">11 см</span>
+                                                                    </div>
+                                                                    <div class="catalog__item--option">
+                                                                        <span class="title">Высота:</span>
+                                                                        <span class="value">40 см</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="catalog__item--cart xs">
+                                                                    <div class="catalog__item--number">
+                                                                        <div class="availability available">
+                                                                            <span>в наличии</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="catalog__item--price xs">
+                                                                    <span class="amount--total">850 <span>шт</span></span>
+                                                                    <span class="price--total">105 950 <span>₽</span></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cell no-md" data-cell="pot">
+                                                            <span class="value">11 см</span>
+                                                        </div>
+                                                        <div class="cell no-md" data-cell="height">
+                                                            <span class="value">40 см</span>
+                                                        </div>
+                                                        <div class="cell no-xs" data-cell="amount">
+                                                            <span class="value">100 шт /<br class="md"> 2 600 шт</span>
+                                                        </div>
+                                                        <div class="cell no-xs" data-cell="price">
+                                                            <div class="catalog__item--price">
+                                                                <span class="price--actual">1 350 <span>₽</span></span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cell no-xs" data-cell="number">
+                                                            <span class="value">85 шт</span>
+                                                        </div>
+                                                        <div class="cell no-xs" data-cell="availability">
+                                                            <div class="availability available">
+                                                                <span>в наличии</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cell no-xs" data-cell="final">
+                                                            <span class="total--actual">105 950 <span>₽</span></span>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="catalog__item">
+                                                    <a href="catalog_detail.html" target="_blank">
+                                                        <div class="cell" data-cell="item">
+                                                            <div class="catalog__item--img">
+                                                                <picture>
+                                                                    <source type="image/webp" srcset="img/flower1_2x-mini.webp">
+                                                                    <img src="img/flower1_2x-mini.jpg" alt="Wodospad II-pęd Biały Extra">
+                                                                </picture>
+                                                                <div class="catalog__item--label">
+                                                                    <div class="label" data-label="new">New</div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="catalog__item--info">
+                                                                <p class="subtitle">
+                                                                    <span>Орхидея Фаленопсис</span>
+                                                                    <span class="separate">|</span>
+                                                                    <span>Е213366</span>
+                                                                </p>
+                                                                <p class="title">Extra Anthura Newcastle</p>
+                                                                <div class="catalog__item--options">
+                                                                    <div class="catalog__item--option">
+                                                                        <span class="title">Диаметр горшка:</span>
+                                                                        <span class="value">11 см</span>
+                                                                    </div>
+                                                                    <div class="catalog__item--option">
+                                                                        <span class="title">Высота:</span>
+                                                                        <span class="value">75 см</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="catalog__item--cart xs">
+                                                                    <div class="catalog__item--number">
+                                                                        <div class="availability available">
+                                                                            <span>в наличии</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="catalog__item--price xs">
+                                                                    <span class="amount--total">20 <span>шт</span></span>
+                                                                    <span class="price--total">23 255 <span>₽</span></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cell no-md" data-cell="pot">
+                                                            <span class="value">11 см</span>
+                                                        </div>
+                                                        <div class="cell no-md" data-cell="height">
+                                                            <span class="value">75 см</span>
+                                                        </div>
+                                                        <div class="cell no-xs" data-cell="amount">
+                                                            <span class="value">90 шт /<br class="md"> 3 600 шт</span>
+                                                        </div>
+                                                        <div class="cell no-xs" data-cell="price">
+                                                            <div class="catalog__item--price">
+                                                                <span class="price--actual">1 955 <span>₽</span></span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cell no-xs" data-cell="number">
+                                                            <span class="value">20 шт</span>
+                                                        </div>
+                                                        <div class="cell no-xs" data-cell="availability">
+                                                            <div class="availability available">
+                                                                <span>в наличии</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cell no-xs" data-cell="final">
+                                                            <span class="total--actual">23 255 <span>₽</span></span>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+            </section>
+        </div>
+        <div class="wrapper__shadow"></div>
+
+        <div class="popup" data-popup="feedback">
+            <div class="popup__close"></div>
+            <div class="popup__content">
+                <div class="popup__header">
+                    <span class="popup__title">Заказать звонок</span>
+                </div>
+                <div class="popup__body">
+                    <form>
+                        <div class="form__field--wrap">
+                            <div class="form__field" data-field="name">
+                                <label>
+                                    <span>Пользователь:</span>
+                                    <span class="input--wrap">
+                                        <input type="text" name="NAME" placeholder="Введите ФИО..." required>
+                                    </span>
+                                    <span class="input--error"></span>
+                                </label>
+                            </div>
+                            <div class="form__field" data-field="phone">
+                                <label>
+                                    <span>Телефон:</span>
+                                    <span class="input--wrap">
+                                        <input type="tel" name="PHONE" required="" placeholder="+7 (999) 999 99 99">
+                                    </span>
+                                    <span class="input--error"></span>
+                                </label>
+                            </div>
+                        </div>
+                        <button class="j-send-request">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer__bottom">
+            <div class="container">
+                <span>© Mariflora, 1977-2021</span>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script src="js/script-lib.js"></script>
+<script src="js/script.js"></script>
+
+
+
+
+</body>
+</html>
