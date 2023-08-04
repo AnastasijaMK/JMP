@@ -9839,8 +9839,9 @@ body.body--order .catalog__list[data-view="list"] .catalog__item .availability.s
     }
 
     .catalog__item--slider-inner .catalog__item:last-child {
-        width: 180px;
-        min-width: 180px;
+        width: 160px;
+        min-width: 160px;
+        border-right: 0;
     }
 
     .catalog__item--slider-inner .catalog__item .catalog__item--img {
